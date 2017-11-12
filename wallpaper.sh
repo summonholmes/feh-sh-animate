@@ -10,7 +10,7 @@
 # 1. It is preferred to use a gif image that is your screen's 
 # resolution.  Run the following command on any gif image:
 #
-#	$ cd /path/to/gif && convert void.gif -coalesce void.png
+#	$ cd /path/to/gif && convert pic.gif -coalesce pic.png
 #
 # 2. Make sure this sh file is executable.  Assuming you keep this
 # program in your gif folder (hidden by default), run:
@@ -36,11 +36,11 @@ TOT=`cd $PAT && ls | wc -l`
 while :
 do
 	if [ $CNT != `echo $((TOT-1))` ]; then
-		feh --bg-fill $PAT/void-$CNT.png
+		feh --bg-fill $PAT/pic-$CNT.png
 		CNT=$((CNT+1))
 		sleep $SPD
 	else
-		feh --bg-fill $PAT/void-$CNT.png
+		feh --bg-fill $PAT/pic-$CNT.png
 		CNT=0
 		sleep $SPD
 	fi
