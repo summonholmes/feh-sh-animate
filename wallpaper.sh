@@ -35,7 +35,7 @@ TOT=`cd $PAT && ls | wc -l`
 
 while :
 do
-	if [ $CNT != `echo $((TOT-1))` ]; then
+	if [ $CNT != `echo $((TOT-2))` ]; then
 		feh --bg-fill $PAT/pic-$CNT.png
 		CNT=$((CNT+1))
 		sleep $SPD
