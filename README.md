@@ -1,4 +1,4 @@
-# feh-wallpaper-animator
+# feh-sh-animate
 The provided script, 'fehsh.sh', will convert a .gif file into a series of .png images, then continuously loop through the images while updating the wallpaper.  The script will continue to run until the user terminates the script with SIGINT (ctrl+c or cmd+c), the task manager, or exits the X session.  If the .gif file has already been converted to .png images, only the looping is performed.  This script only works on Unix-like systems and window environments where feh is permitted to set the wallpaper.  Therefore, this script is ideal for minimal window manager desktops.
 
 ## Dependencies
