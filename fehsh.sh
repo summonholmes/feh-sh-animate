@@ -76,12 +76,10 @@ while :
 do
 	# Increment counter and reset
 	if [ $COUNTER -lt $TOTAL_IMG ]; then
-		echo $COUNTER
 		feh --bg-fill $GIF_PATH/gif-$COUNTER.png
 		COUNTER=$(($COUNTER + 1))
 		sleep $SPEED
 	elif [ $COUNTER -eq $TOTAL_IMG ]; then
-		echo $COUNTER
 		feh --bg-fill $GIF_PATH/gif-$COUNTER.png
 		COUNTER=0
 		sleep $SPEED
