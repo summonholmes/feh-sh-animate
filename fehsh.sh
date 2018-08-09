@@ -4,7 +4,7 @@
 GIF_PATH=$1
 SPEED=$2
 ERR_MSG="Usage: $ $0 path-to-gif-directory 
-	[[Vv][Ss]low|[Ss]low|[Mm]ed|[Ff]ast]|[Vv][Ff]ast"
+	[Vv][Ss]low | [Ss]low | [Mm]ed | [Ff]ast] | [Vv][Ff]ast"
 
 # Take exactly two arguments
 if [ $# -ne 2 ]; then
