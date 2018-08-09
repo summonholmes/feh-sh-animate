@@ -25,6 +25,7 @@ $ mkdir example_dir
 $ mv example.gif example_dir
 $ ./fehsh.sh example_dir slow
 ```
+* After conversion, the .gif file will be moved to the parent folder
 
 ### 2. Run on an existing set of converted .png images
 ```
